@@ -14,7 +14,7 @@ class SignIn extends Component {
     formUser: {
       controls: {
         email: {
-          value: "mateus.pereira@quero.com.br",
+          value: "mateus.pereira@teste.com",
           required: true,
           isEmail: true,
           maxLength: 100,
