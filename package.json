@@ -16,9 +16,12 @@
     "bootstrap": "^4.3.1",
     "color": "^3.1.0",
     "connected-react-router": "^6.3.2",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "face-api.js": "^0.20.0",
     "history": "^4.9.0",
     "moment": "^2.24.0",
+    "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-autocomplete": "^1.8.1",
@@ -43,11 +46,10 @@
     "xml-js": "^1.6.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postbuild": "node iisConfig/copyIISConfig.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
